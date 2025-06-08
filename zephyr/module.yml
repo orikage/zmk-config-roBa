@@ -2,3 +2,6 @@ name: roBa
 build:
   settings:
     board_root: config
+zephyr_udc0: &usbd {
+    status = "okay";
+};
